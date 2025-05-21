@@ -8,12 +8,15 @@ from collections import Counter
 
 class RandomSensing(Player):
     def __init__(self):
+      
+       
        
         self.color = None
         self.board = None
         self.possible_boards = []
         self.capture_square = None
-        self.engine = chess.engine.SimpleEngine.popen_uci('./stockfish.exe', setpgrp=True)
+        #self.engine = chess.engine.SimpleEngine.popen_uci('./stockfish.exe', setpgrp=True)
+        self.engine = chess.engine.SimpleEngine.popen_uci('/opt/stockfish/stockfish', setpgrp=True)
 
     def handle_game_start(self, color, board, opponent_name):
        
@@ -24,7 +27,9 @@ class RandomSensing(Player):
             self.engine.quit()                            
         except:                                          
             pass                                          
-        self.engine = chess.engine.SimpleEngine.popen_uci('./stockfish.exe', setpgrp=True)
+        #self.engine = chess.engine.SimpleEngine.popen_uci('./stockfish.exe', setpgrp=True)
+        self.engine = chess.engine.SimpleEngine.popen_uci('/opt/stockfish/stockfish', setpgrp=True)
+        
 
     def handle_opponent_move_result(self, captured_my_piece, capture_square):
         
@@ -94,7 +99,8 @@ class RandomSensing(Player):
 
             except chess.engine.EngineTerminatedError:       
                 print("Stockfish engine died. Restarting...") 
-                self.engine = chess.engine.SimpleEngine.popen_uci('./stockfish.exe', setpgrp=True) 
+                #self.engine = chess.engine.SimpleEngine.popen_uci('./stockfish.exe', setpgrp=True) 
+                self.engine = chess.engine.SimpleEngine.popen_uci('/opt/stockfish/stockfish', setpgrp=True)
                 continue                                       
             except chess.engine.EngineError:                  
                 print(f"Stockfish bad state at: {board.fen()}")  
@@ -135,4 +141,3 @@ class RandomSensing(Player):
             print("Engine already terminated") 
 # #To run
 # #python -m reconchess.scripts.rc_bot_match RandomSensing reconchess.bots.random_bot
-
