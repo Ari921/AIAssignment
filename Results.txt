@@ -1,0 +1,121 @@
+ROUND1:
+Match 1: ImprovedAgent.py (White) vs RandomSensing.py (Black)
+ Winner: white!
+
+Match 2: RandomSensing.py (White) vs ImprovedAgent.py (Black)
+ Winner: black!
+
+Match 3: ImprovedAgent.py (White) vs RandomSensing.py (Black)
+ Winner: white!
+
+Match 4: RandomSensing.py (White) vs ImprovedAgent.py (Black)
+ Winner: black!
+
+Match 5: ImprovedAgent.py (White) vs TroutBot.py (Black)
+ Winner: black!
+
+Match 6: TroutBot.py (White) vs ImprovedAgent.py (Black)
+ Winner: white!
+
+Match 7: ImprovedAgent.py (White) vs TroutBot.py (Black)
+ Winner: white!
+
+Match 8: TroutBot.py (White) vs ImprovedAgent.py (Black)
+ Winner: white!
+
+Match 9: ImprovedAgent.py (White) vs RandomAgent.py (Black)
+ Winner: white!
+
+Match 10: RandomAgent.py (White) vs ImprovedAgent.py (Black)
+ Winner: white!
+
+Match 11: ImprovedAgent.py (White) vs RandomAgent.py (Black)
+ Winner: black!
+
+Match 12: RandomAgent.py (White) vs ImprovedAgent.py (Black)
+ Winner: white!
+
+Match 13: RandomSensing.py (White) vs TroutBot.py (Black)
+ Winner: white!
+
+Match 14: TroutBot.py (White) vs RandomSensing.py (Black)
+ Winner: white!
+
+Match 15: RandomSensing.py (White) vs TroutBot.py (Black)
+ Winner: white!
+
+Match 16: TroutBot.py (White) vs RandomSensing.py (Black)
+ Winner: black!
+
+Match 17: RandomSensing.py (White) vs RandomAgent.py (Black)
+ Winner: white!
+
+Match 18: RandomAgent.py (White) vs RandomSensing.py (Black)
+ Winner: white!
+
+Match 19: RandomSensing.py (White) vs RandomAgent.py (Black)
+ Winner: white!
+
+Match 20: RandomAgent.py (White) vs RandomSensing.py (Black)
+ Winner: white!
+
+ ROUND 2:
+ Match 1: ImprovedAgent.py (White) vs RandomSensing.py (Black)
+ Winner: white!
+
+Match 2: RandomSensing.py (White) vs ImprovedAgent.py (Black)
+ Winner: black!
+
+Match 3: ImprovedAgent.py (White) vs RandomSensing.py (Black)
+ Winner: black!
+
+Match 4: RandomSensing.py (White) vs ImprovedAgent.py (Black)
+ Winner: black!
+
+Match 5: ImprovedAgent.py (White) vs TroutBot.py (Black)
+ Winner: black!
+
+Match 6: TroutBot.py (White) vs ImprovedAgent.py (Black)
+ Winner: white!
+
+Match 7: ImprovedAgent.py (White) vs TroutBot.py (Black)
+ Winner: black!
+
+Match 8: TroutBot.py (White) vs ImprovedAgent.py (Black)
+ Winner: black!
+
+Match 9: ImprovedAgent.py (White) vs RandomAgent.py (Black)
+ Winner: white!
+
+Match 10: RandomAgent.py (White) vs ImprovedAgent.py (Black)
+ Winner: black!
+
+Match 11: ImprovedAgent.py (White) vs RandomAgent.py (Black)
+ Winner: white!
+
+Match 12: RandomAgent.py (White) vs ImprovedAgent.py (Black)
+ Winner: white!
+
+Match 13: RandomSensing.py (White) vs TroutBot.py (Black)
+ Winner: black!
+
+Match 14: TroutBot.py (White) vs RandomSensing.py (Black)
+ Winner: white!
+
+Match 15: RandomSensing.py (White) vs TroutBot.py (Black)
+ Winner: white!
+
+Match 16: TroutBot.py (White) vs RandomSensing.py (Black)
+ Winner: white!
+
+Match 17: RandomSensing.py (White) vs RandomAgent.py (Black)
+ Winner: black!
+
+Match 18: RandomAgent.py (White) vs RandomSensing.py (Black)
+ Winner: black!
+
+Match 19: RandomSensing.py (White) vs RandomAgent.py (Black)
+ Winner: black!
+
+Match 20: RandomAgent.py (White) vs RandomSensing.py (Black)
+ Winner: black!
